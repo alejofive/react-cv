@@ -1,0 +1,52 @@
+.employment-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.employment-text-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.employment-text-title h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.box-text-employment p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  opacity: 0.7;
+  margin-top: 6px;
+}
+
+.box-text-employment {
+  margin-top: 24px;
+}
+
+.box-text-employment span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  opacity: 0.7;
+}
+
+.box-worked {
+  margin-top: 41px;
+}
+
+.box-worked h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.worked-img {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
