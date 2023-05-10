@@ -1,0 +1,29 @@
+.profile-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.cart {
+  margin-top: 17px;
+}
+
+.cart-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.cart-text h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.cart-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  opacity: 0.7;
+}

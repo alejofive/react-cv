@@ -1,0 +1,16 @@
+.box-worked {
+  margin-top: 41px;
+}
+
+.box-worked h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.worked-img {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
