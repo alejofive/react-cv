@@ -12,8 +12,8 @@ function App() {
     <>
       <div className="container">
         <Header />
-        <section className="row box">
-          <div className="col-4">
+        <section className="row box ">
+          <div className="col-5">
             <Profile />
             <Education />
             <Skill />

@@ -8,13 +8,20 @@
   font-size: 13px;
 }
 
-.box-skill li {
+.box-skill ul {
+  padding-left: 10px;
+}
+
+.box-skills {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-skills li {
+  margin-top: 10px;
+  width: 50%;
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
-}
-
-.box-skill ul {
-  padding-left: 12px;
-  margin-top: 10px;
 }

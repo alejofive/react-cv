@@ -5,11 +5,11 @@ const index = () => {
     <section className="box-skill">
       <h3>Skills</h3>
 
-      <ul className="row">
-        <li className="col-6 ">Figma</li>
-        <li className="col-6"> Photoshop</li>
-        <li className="col-6">After Effects</li>
-        <li className="col-6">Sketch</li>
+      <ul className="box-skills">
+        <li className="">Figma</li>
+        <li className=""> Photoshop</li>
+        <li className="">After Effects</li>
+        <li className="">Sketch</li>
       </ul>
     </section>
   );
