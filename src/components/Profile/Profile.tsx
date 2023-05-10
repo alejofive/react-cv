@@ -1,6 +1,6 @@
 import "./style.css";
 
-const index = () => {
+const Profile = () => {
   return (
     <section>
       <h1 className="profile-title">Profile</h1>
@@ -26,4 +26,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Profile;

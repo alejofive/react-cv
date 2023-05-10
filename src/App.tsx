@@ -1,10 +1,10 @@
 import "./App.css";
 import Header from "./components/Header";
-import Profile from "./components/Profile";
-import Education from "./components/Education";
+import Profile from "./components/Profile/Profile";
+import Education from "./components/Education/Education";
 import Skill from "./components/Skill";
 
-import Employment from "./components/Employment";
+import Employment from "./components/Employment/Employment";
 import Worked from "./components/Worked";
 
 function App() {

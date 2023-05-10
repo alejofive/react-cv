@@ -1,6 +1,6 @@
 import "./style.css";
 
-const index = () => {
+const Skill = () => {
   return (
     <section className="box-skill">
       <h3>Skills</h3>
@@ -15,4 +15,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Skill;

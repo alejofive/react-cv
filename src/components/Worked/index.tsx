@@ -1,6 +1,6 @@
 import "./style.css";
 
-const index = () => {
+const Worked = () => {
   return (
     <>
       <section className="box-worked">
@@ -15,4 +15,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Worked;
