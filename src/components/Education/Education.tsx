@@ -1,6 +1,6 @@
 import "./style.css";
 
-const Educations = [
+const educations = [
   {
     title: "Los Angeles University",
     description: "Bachelor of Fine Arts in Graphic Design, GPA: 3.4/4.0",
@@ -18,13 +18,13 @@ const Education = () => {
     <section className="box-Education">
       <h1 className="education-title">Education</h1>
 
-      {Educations.map((Education) => (
+      {educations.map((education) => (
         <div className="cart-education">
-          <h3>{Education.title}</h3>
-          <p>{Education.description}</p>
+          <h3>{education.title}</h3>
+          <p>{education.description}</p>
 
           <div className="box-span">
-            <span>{Education.date}</span>
+            <span>{education.date}</span>
           </div>
         </div>
       ))}

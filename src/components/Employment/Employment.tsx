@@ -1,6 +1,6 @@
 import "./style.css";
 
-const Employments = [
+const employments = [
   {
     title: "UI Designer at Market Studios",
     description:
@@ -25,13 +25,13 @@ const Employment = () => {
   return (
     <>
       <h1 className="employment-title">Employment</h1>
-      {Employments.map((Employment) => (
+      {employments.map((employment) => (
         <div className="box-text-employment">
           <div className="employment-text-title">
-            <h4>{Employment.title}</h4>
-            <span>{Employment.date}</span>
+            <h4>{employment.title}</h4>
+            <span>{employment.date}</span>
           </div>
-          <p>{Employment.description}</p>
+          <p>{employment.description}</p>
         </div>
       ))}
     </>

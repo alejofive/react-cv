@@ -2,10 +2,10 @@ import "./App.css";
 import Header from "./components/Header";
 import Profile from "./components/Profile/Profile";
 import Education from "./components/Education/Education";
-import Skill from "./components/Skill";
+import Skill from "./components/Skill/Skill";
 
 import Employment from "./components/Employment/Employment";
-import Worked from "./components/Worked";
+import Worked from "./components/Worked/Worked";
 
 function App() {
   return (
