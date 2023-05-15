@@ -1,13 +1,26 @@
 import "./style.css";
 
+const userHeader = [
+  {
+    name: "Alejandro Garcia",
+    profile: "Front Developer",
+    banner: "./img/Background.png",
+    user: "./img/Photo.png",
+  },
+];
+
 const Header = () => {
   return (
-    <header className="container-header">
-      <img className="banner" src="./img/Background.png" alt="" />
+    <header>
+      {userHeader.map((item) => (
+        <div className="container-header">
+          <img className="banner" src={item.banner} alt="" />
 
-      <img className="logo-user" src="./img/Photo.png" alt="" />
-      <h1>Alejandro Garcia</h1>
-      <h3>Front Developer</h3>
+          <img className="logo-user" src={item.user} alt="" />
+          <h1>{item.name}</h1>
+          <h3>{item.profile}</h3>
+        </div>
+      ))}
     </header>
   );
 };
